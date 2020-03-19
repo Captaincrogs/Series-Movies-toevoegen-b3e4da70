@@ -36,8 +36,9 @@ if (isset($_POST["id"])) {
         trailer = '$trailerWijzigenVar' 
         WHERE id = $id"
     );
+
 }
 
-header("Refresh: 2; url=films.php?id=$id");
+header("Refresh: 0; url=films.php?id=$id");
 exit("You are being redirected from editmovie.php...");
 

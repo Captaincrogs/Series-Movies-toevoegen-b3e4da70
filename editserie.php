@@ -29,7 +29,7 @@ if (isset($_POST["id"])) {
     $languageWijzigenVar = $_POST["languageWijzigen"];
     $seasonWijzigenVar = $_POST["seasonWijzigen"];
     $descriptionWijzigenVar = $_POST["descriptionWijzigen"];
-    
+
     //UPDATE
     $conn->query(
         "UPDATE series 
